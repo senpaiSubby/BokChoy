@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+<OnionBeer.label>piwo cebulowe</OnionBeer.label>
+<OnionBeer.description>piwo zrobione z cebuli</OnionBeer.description>
+
+<OnionWort.label>brzeczka cebulowa</OnionWort.label>
+<OnionWort.description>Piwo cebulowe przed fermentacją. Ta substancja musi sfermentować w beczce zanim stanie się piwem cebulowym</OnionWort.description>
+
+<MakeOnionWort.label>zrób brzeczkę cebulową</MakeOnionWort.label>
+<MakeOnionWort.description> zrób brzeczkę cebulową z cebuli</MakeOnionWort.description>
+
+</LanguageData>
