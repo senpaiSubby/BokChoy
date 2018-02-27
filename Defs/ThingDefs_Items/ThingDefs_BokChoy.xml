@@ -21,7 +21,7 @@
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>5</daysToRotStart>
+        <daysToRotStart>3</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
