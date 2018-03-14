@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BokChoy_MealRottable">
+    <defName>BokChoySoup</defName>
+    <label>Bok Choy Soup</label>
+    <description>Tasty Bok Choy soup made of meat and Bok Choy!</description>
+    <graphicData>
+      <texPath>Things/Item/Food/BokChoySoup</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>5</DeteriorationRate>
+      <MarketValue>18</MarketValue>
+      <Mass>0.25</Mass>
+    </statBases>
+    <ingestible>
+      <foodType>OmnivoreHuman</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <preferability>MealFine</preferability>
+      <tasteThought>AteFineMeal</tasteThought>
+      <nutrition>0.4</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>CookBokChoySoup</defName>
+    <label>Bok Choy Soup (4)</label>
+    <description>Cook very tasty Bok Choy soup made of meat and Bok Choy!</description>
+    <jobString>Cooking stew</jobString>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawBokChoy</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <BokChoySoup>4</BokChoySoup>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RawBokChoy</li>
+      </thingDefs>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+      <disallowedSpecialFilters>
+        <li>AllowRotten</li>
+      </disallowedSpecialFilters>
+    </fixedIngredientFilter>
+    <workAmount>800</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>
