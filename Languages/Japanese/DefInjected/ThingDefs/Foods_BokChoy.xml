@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <RawBokChoy.label>白菜<RawBokChoy.label>
+    <RawBokChoy.description>中華料理に欠かせない野菜。この種の背長は速いが、栄養的に貧しい。</RawBokChoy.description>
+
+    <BokChoySoup.label>白菜と角煮の茹で汁</BokChoySoup.label>
+    <BokChoySoup.description>角煮と白菜の美味しいおかず。<BokChoySoup.description>
+
+    <CookBokChoySoup.label>白菜と角煮の茹で汁を作る</CookBokChoySoup.label>
+    <CookBokChoySoup.description>濃厚な出汁に白菜を煮込んだスープを作る。<CookBokChoySoup.description>
+</LanguageData>
